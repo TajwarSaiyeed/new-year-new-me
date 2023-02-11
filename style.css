@@ -97,3 +97,50 @@ header {
 .about .about-text ul li .icon {
     color:  #16D887;
 }
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.plans h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.plans .all-plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.plans .all-plans div{
+    width: 250px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.plans .all-plans div:hover {
+    background: #16D887;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.plans .all-plans div img {
+    width: 100px;
+    height: 100px;
+}
