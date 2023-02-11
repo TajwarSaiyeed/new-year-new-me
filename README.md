@@ -7,7 +7,7 @@
 <p>Author: Abid</p>
 
 <div align="center">
- <img width=200px height=200px src="./readme.png" alt="">
+ <img src="./readme.png" alt="">
 </div>
 my-app-one
 ├─ images
