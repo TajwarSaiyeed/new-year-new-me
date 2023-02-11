@@ -9,6 +9,8 @@
 <div align="center">
  <img src="./readme.png" alt="">
 </div>
+
+```
 my-app-one
 ├─ images
 │  ├─ banner
@@ -30,3 +32,4 @@ my-app-one
 │  └─ watch.png
 ├─ index.html
 └─ style.css
+```
